@@ -1,4 +1,4 @@
-#PROGRAMAS REALIZADOS  
+#PROGRAMAS REALIZADOS PARA COMPUTACION APLICADA
 -p001-hola-mundo.py  
 -p002-area-circulo.py
 -p003-area-triangulo.py
