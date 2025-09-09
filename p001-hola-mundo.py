@@ -1,0 +1,5 @@
+print("Introduce tus datos personales")
+nombre=input("Dame tu nombre ")
+edad=int(input("Dame tu edad "))
+peso=float(input("Dame tu peso en kg "))
+print(f"Hola {nombre},tu edad es {edad} años y tu peso es de {peso} kg")
