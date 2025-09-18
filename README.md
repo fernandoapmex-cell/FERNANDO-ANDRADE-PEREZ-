@@ -1,4 +1,5 @@
-# PROGRAMAS REALIZADOS PARA COMPUTACION APLICADA
+# PROGRAMAS REALIZADOS PARA MATERIA DE COMPUTACION APLICADA
+## Profesor: Carlos Castañeda
 ## Alumno: Fernando Andrade Pérez
 
 ### Actividad 2 - Programas hechos en la clase
