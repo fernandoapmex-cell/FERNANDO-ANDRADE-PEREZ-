@@ -1,4 +1,6 @@
-#PROGRAMAS REALIZADOS PARA COMPUTACION APLICADA
+# PROGRAMAS REALIZADOS PARA COMPUTACION APLICADA
+## Alumno: Fernando Andrade Pérez
+
 -p001-hola-mundo.py  
 -p002-area-circulo.py
 -p003-area-triangulo.py
