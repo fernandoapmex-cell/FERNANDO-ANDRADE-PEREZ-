@@ -1,11 +1,10 @@
 nombre=input('Ingresa tu nombre: ')
 edad=int(input('Ingresa tu edad: '))
 sexo=input('Eres mujer?(Si/No)').lower().strip()
-calificaciones=[]
-for indice in range(3):
-    numero=float(input(f'Ingresa la calificacion numero {indice+ 1} :  '))
-    calificaciones.append(numero)
-promedio=sum(calificaciones)/len(calificaciones)
+calificacion1= float(input('Ingresa la calificacion 1: '))
+calificacion2= float(input('Ingresa la calificacion 2: '))
+calificacion3= float(input('Ingresa la calificacion 3: '))
+promedio = (calificacion1 + calificacion2 + calificacion3)/3
 print(f'tu promedio es: {promedio:.2f}')
 
 if  sexo != 'si':

@@ -1,9 +1,10 @@
-cantidad=int(input('Ingresa cuantas calificaciones quieres ingresar: '))
-calificaciones=[]
-for indice in range(cantidad):
-    numero=float(input(f'Ingresa la calificacion numero {indice+ 1} :  '))
-    calificaciones.append(numero)
-promedio=sum(calificaciones)/len(calificaciones)
+calificacion1= float(input('Ingresa la calificacion 1: '))
+calificacion2= float(input('Ingresa la calificacion 2: '))
+calificacion3= float(input('Ingresa la calificacion 3: '))
+calificacion4= float(input('Ingresa la calificacion 4: '))
+calificacion5= float(input('Ingresa la calificacion 5: '))
+
+promedio = (calificacion1 + calificacion2 + calificacion3 + calificacion4 + calificacion5)/5
 
 print(f'tu promedio es: {promedio:.2f}')
 if promedio < 6:

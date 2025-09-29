@@ -1,8 +1,12 @@
-cantidad=int(input('Ingresa cuantos numeros quieres acomodar: '))
-numeros=[]
-for indice in range(cantidad):
-    numero=int(input(f'Ingresa el numero {indice+ 1} :  '))
-    numeros.append(numero)
-numeros_acomodados = sorted(numeros)
+a,b,c=input('Ingresa 3 numeros numeros quieres acomodar separados por un espacio: ').split()
+a = int(a)
+b = int(b)
+c = int(c)
 
-print(f'El numero mayor de los numeros:{numeros} es: {numeros[-1]} ')
+mayor = a
+if b > mayor:
+    mayor = b
+if c > mayor:
+    mayor = c
+
+print("El número mayor es", mayor)

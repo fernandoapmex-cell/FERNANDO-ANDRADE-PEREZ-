@@ -1,19 +1,15 @@
-cantidad=int(input('Ingresa cuantos numeros quieres acomodar: '))
-numeros=[]
-for indice in range(cantidad):
-    numero=int(input(f'Ingresa el numero {indice+ 1} :  '))
-    numeros.append(numero)
-
-numeros_acomodados = sorted(numeros)
- # Obtener el número mínimo y máximo de la lista
-min_num = numeros_acomodados[0]
-max_num = numeros_acomodados[-1]
-rango_consecutivo = list(range(min_num, max_num + 1))
+a,b,c=input('Ingresa 3 numeros numeros quieres acomodar separados por un espacio: ').split()
+a = int(a)
+b = int(b)
+c = int(c)
+min_num = min(a,b,c)
+max_num = max(a,b,c)
+medio = a + b + c - min_num - max_num 
 
 
-if  numeros_acomodados == rango_consecutivo:
-    print(f'Los numeros: {numeros_acomodados} ,son consecutivos')
+if medio == min_num + 1 and max_num == medio + 1:
+    print(f'Los numeros: {a,b,c} ,son consecutivos')
 else:
-    print(f'Los numeros: {numeros_acomodados} ,no son consecutivos')
+    print(f'Los numeros no {a,b,c} son consecutivos')
 
 
