@@ -60,3 +60,18 @@
 - p049-sumar-consecutivos.py
 - p050-conteo-numeros.py
 - p051-adivina-numero.py
+### Actividad 7 - Programas hechos en clase
+- p052-tabla-conversion.py
+- p053-conjetura-collatz.py
+- p054-tabla-multiplicar-while-v1.py
+- p055-tabla-multiplicar-while-v2.py
+- p056-contador-vocales.py
+- p057-interes-simple.py
+### Tarea 03 - Ejecución repetitiva - while
+- p058-impares-ascendente.py
+- p059-pares-descendente.py
+- p060-promedio-suma.py
+- p061-suma-200.py
+- p062-conversion-temperaturas.py
+- p063-numero-mayor.py
+- p064-verificar-palindromo.py
