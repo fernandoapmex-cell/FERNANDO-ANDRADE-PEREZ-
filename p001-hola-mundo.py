@@ -1,4 +1,4 @@
-print("Introduce tus datos personales")
+print("Introduce tus datos personales.")
 nombre=input("Dame tu nombre ")
 edad=int(input("Dame tu edad "))
 peso=float(input("Dame tu peso en kg "))
