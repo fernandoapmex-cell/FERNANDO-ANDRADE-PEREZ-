@@ -8,6 +8,6 @@ while True:
             if num_mayor is None or numero > num_mayor:
                num_mayor = numero
     print(f"El número mayor fue: {num_mayor}")
-    continuar = input("¿Desea continuar (Si/No)? ").strip().lower()
-    if continuar != "s":
+    continuar = input("¿Desea continuar (S/N)? ").strip().upper()
+    if continuar == "N":
         break

@@ -11,7 +11,7 @@ while True:
             temperatura_temporal += 1
         else:
             break
-    continuar = input("¿Desea continuar (Si/No)? ").strip().lower()
-    if continuar != "s":
+    continuar = input("¿Desea continuar (S/N)? ").strip().upper()
+    if continuar == "N":
         break
     

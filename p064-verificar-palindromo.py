@@ -4,7 +4,7 @@ while True:
         print(f'El número {numero} es un palíndromo.')
     else:
         print(f'El número {numero} no es un palíndromo.')
-    continuar = input("¿Desea continuar (Si/No)? ").strip().lower()
-    if continuar != "s":
+    continuar = input("¿Desea continuar (S/N)? ").strip().upper()
+    if continuar == "N":
         break
     

@@ -14,5 +14,6 @@ while True:
         numero += 1
     print("\nLa suma de los impares es:", suma_acumulada)
     continuar = input("¿Desea continuar (Si/No)? ").strip().lower()
-    if continuar != "s":
-        break
+    res = input('\n¿Deseas realizar otro cálculo (S/N)? ').upper()
+    if res == 'N':
+     break

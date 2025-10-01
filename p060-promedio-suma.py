@@ -12,6 +12,6 @@ while True:
     print(f'Se introdujeron {contador} numeros')
     print(f'La suma de los numeros es : {sumatoria}')
     print(f'El promedio es {promedio}') 
-    continuar = input("¿Desea continuar (Si/No)? ").strip().lower()
-    if continuar != "s":
+    continuar = input("¿Desea continuar (S/N)? ").strip().upper()
+    if continuar == "N":
         break

@@ -13,6 +13,6 @@ while True:
     Suma final: {sumatoria}
     Total de números introducidos: {contador}
     ''')
-    continuar = input("¿Desea continuar (Si/No)? ").strip().lower()
-    if continuar != "s":
+    continuar = input("¿Desea continuar (S/N)? ").strip().upper()
+    if continuar == "N":
         break
