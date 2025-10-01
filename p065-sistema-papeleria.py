@@ -34,9 +34,9 @@ cadena_descuento_oficio=" "
 cadena_descuento_dobleof=" "
 cadena_descuento_plano=" "
 
-
+#Salidas
 print(f'---------------------------------\nPapelería la Malena, SA. de CV.\n Sistema de ventas de copias \n---------------------------------')
-
+#Proceso
 while True:
     print(f'Venta: {cantidad_ventas}')
     #Entradas:
