@@ -9,6 +9,7 @@
 #por los parametros asignados si cumplio la venta esperada.
 
 #Procesos:
+
 cantidad_vendido=0
 cantidad_ventas =1
 cantidad_copias_totales =0
