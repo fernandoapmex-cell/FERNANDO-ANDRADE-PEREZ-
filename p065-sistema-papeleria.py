@@ -8,11 +8,6 @@
 # de cuantas copias fueron vendidas por cada tipo, su suma de todas, la venta de cada tipo de copia y indicar si tuvo descuento, y sumar el total , al igual que indicar si la venta fue un exito marcado
 #por los parametros asignados si cumplio la venta esperada.
 
-
-
-
-
-
 #Procesos:
 cantidad_vendido=0
 cantidad_ventas =1
