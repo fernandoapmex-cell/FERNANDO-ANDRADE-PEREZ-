@@ -77,3 +77,5 @@
 - p064-verificar-palindromo.py
 ### Actividad 8 - Problema de repaso - Parcial 1
 - p065-sistema-papeleria
+### Actividad 9 - Primer examen parcial
+- p066-primer-parcial.py
