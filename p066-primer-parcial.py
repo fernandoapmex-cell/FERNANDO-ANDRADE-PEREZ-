@@ -168,7 +168,7 @@ print("\n--- Rentabilidad ---")
 # fueron BAJAS, MODERADAS o BUENAS, basándote en los ingresos totales.
 if (0 < ingresos_totales < VENTAS_BAJAS):
     print('La función generó BAJAS ganancias.')
-elif(VENTAS_BAJAS <= ingresos_totales < VENTAS_BUENAS):
+elif(VENTAS_BAJAS <= ingresos_totales <= VENTAS_BUENAS):
     print('La función generó ganancias MODERADAS.')
 elif(ingresos_totales > VENTAS_BUENAS):
     print('La función generó BUENAS ganancias.')
