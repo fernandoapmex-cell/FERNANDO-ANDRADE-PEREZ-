@@ -130,5 +130,3 @@
 - p108-conversor-unidades.py
 - p109-conversion-divisas.py
 - p110-punto-de-venta.py
-
-- PRUEBA DE INIT 2
