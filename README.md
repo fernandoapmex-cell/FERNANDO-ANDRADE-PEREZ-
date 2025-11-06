@@ -148,3 +148,5 @@
 ### Tarea 7 - Conjuntos
 - p123-conjunto-personas.py
 - p124-conjunt-numeros.py
+### Segundo Examen Parcial
+- p125-segundo-examen-parcial.py
