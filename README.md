@@ -167,3 +167,19 @@
 - p139-factorial.py
 - p140-promedio-letra.py
 - p141-suma-rango.py
+### Actividad 18 - Funciones - Parte 2
+- p142-suma-lista.py
+- p143-lista-pares.py
+- p144-mayor-menor.py
+- p145-mayores-promedio.py
+- p146-pares-impares.py
+- p147-aleatorios.py
+- p148-nombres.py
+### Tarea 8 - Funciones
+- p149–numero-menor.py
+- p150-dia-semana.py
+- p151–medidas-longitud.py
+- p152-suma-pares-impares.py
+- p153-suma-digitos.py
+- p154-calcula-factoriales.py
+- p155-estadisticas-basicas.py
